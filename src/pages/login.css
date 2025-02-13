@@ -1,0 +1,84 @@
+
+.logform{
+    max-width: 550px;
+    height: 550px;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid brown;
+    box-shadow: 20px 20px 0px gray;
+    border-radius: 80px;
+    margin-bottom: -450px;
+    background-image: linear-gradient(45deg, rgb(42, 27, 53) 0%, rgb(42, 27, 53) 26%,rgb(82, 55, 64) 26%, rgb(82, 55, 64) 27%,rgb(121, 83, 76) 27%, rgb(121, 83, 76) 29%,rgb(161, 111, 87) 29%, rgb(161, 111, 87) 30%,rgb(200, 139, 99) 30%, rgb(200, 139, 99) 100%);
+}
+.form>.logtitle{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.form>#text{
+    margin: 20px ;
+    text-align: center;
+    width: 65%;
+    height: 40px;
+    border-radius: 10px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 10px 5px 10px;
+    border: 1px solid;
+}
+
+.form>.box>#checkbox{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    height: 25px;
+}
+.form>.button1{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+}
+.form>.reg>#fpass{
+    font-size: 18px;
+    margin-right: 50px;
+    font-weight: 700;
+    text-decoration-line: none;
+    
+}
+.form>.reg>#fpass:hover{
+    color: white;
+    transition-duration: width 2s height 3s transform 4s;
+    transition-timing-function: ease-in-out;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+.form>.reg>#new{
+    font-size: 18px;
+    margin-left: 50px;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+.form>.reg>#new:hover{
+    color: white;
+    transition-duration: width 2s height 3s transform 4s;
+    transition-timing-function: ease-in-out;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+@media only screen and (max-width:1000px) {
+    .logform{
+        width: 450px;
+    }    
+}

@@ -1,0 +1,51 @@
+.data{
+    margin-top: 150px;
+    margin-bottom: -550px;
+}
+.data>h1{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-underline-offset: 5px;
+}
+.data>h1:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 5px;
+}
+.data>.usertable{
+    width: 900px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    background-color: rgba(245, 210, 162, 0.908);
+    
+}
+
+.data>.usertable>thead>tr>th{
+    border-color: rgba(240, 248, 255, 0.525);
+    background-color: darkturquoise;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.data>.usertable>tbody>tr>td{
+    text-align: center;
+    border-color: rgba(240, 248, 255, 0.525);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width:1200px) {
+    .data>.usertable{
+       width:340px;
+       height: 50px;
+    }
+    .data>.usertable>thead>tr>th{
+        font-size: 10px;
+    }
+    .data>.usertable>tbody>tr>td{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,80 @@
+.regform{
+background: rgb(127,210,215);
+background: linear-gradient(142deg, rgba(127,210,215,1) 45%, rgba(13,230,234,0) 55%);
+    max-width: 650px;
+    height: auto;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid brown;
+    box-shadow: 20px 20px 0px gray;
+    border-radius: 90px;
+    margin-bottom: -450px;
+}
+.form2>.regtitle{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+    
+}
+.form2>input{
+    margin: 20px ;
+    text-align: center;
+    width: 60%;
+    height: 45px;
+    border-radius: 10px ;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid grey;
+    box-shadow: 5px 1px 8px;
+    
+}
+.form2>.button{
+    width: 150px;
+    height: 40px;
+    margin: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(124, 73, 213);
+}
+
+.form2>.log>#user{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: none;
+    color: red;
+}
+@media only screen and (max-width:1000px) {
+    .regform{
+        width: 350px;
+    }  
+    .form2>.regtitle{
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    } 
+    .form2>input{
+        margin: 10px ;
+        text-align: center;
+        width: 60%;
+        height: 35px;        
+    }
+    .form2>.button{
+        width: 125px;
+        height: 30px;
+        margin: 30px;
+        font-size: 16px;
+    } 
+    .form2>.log>#user{
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration-line: none;
+        color: red;
+    }
+}

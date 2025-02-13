@@ -1,0 +1,71 @@
+.logform2{
+    max-width: 550px;
+    height: 550px;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid brown;
+    box-shadow: 20px 20px 0px gray;
+    border-radius: 80px;
+    margin-bottom: -450px;
+    background-image: linear-gradient(45deg, rgb(182, 217, 185) 0%, rgb(182, 217, 185) 7%,rgb(148, 203, 178) 7%, rgb(148, 203, 178) 16%,rgb(80, 177, 166) 16%, rgb(80, 177, 166) 18%,rgb(46, 163, 159) 18%, rgb(46, 163, 159) 26%,rgb(114, 190, 172) 26%, rgb(114, 190, 172) 37%,rgb(12, 150, 153) 37%, rgb(12, 150, 153) 100%);
+}
+
+.logform2>.form>.logtitle{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.logform2>.form>#text{
+    margin: 20px ;
+    text-align: center;
+    width: 65%;
+    height: 40px;
+    border-radius: 10px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 0px 0px;
+    border: 1px solid pink;
+}
+
+.logform2>.form>.box>#checkbox{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    height: 25px;
+}
+.logform2>.form>.logtwo{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: red;
+    background-color: royalblue;
+}
+.logform2>.form>.reg>#fpass{
+    color: darkblue;
+    font-size: 18px;
+    margin-right: 50px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+}
+.logform2>.form>.reg>#new{
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+}
+@media only screen and (max-width:1000px) {
+    .logform2{
+        width: 450px;
+    }    
+}

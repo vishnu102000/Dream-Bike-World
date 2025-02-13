@@ -1,0 +1,143 @@
+body{
+    background-image: radial-gradient(circle at top left, rgb(195, 195, 195) 0%, rgb(195, 195, 195) 2%,rgb(202, 202, 202) 2%, rgb(202, 202, 202) 23%,rgb(209, 209, 209) 23%, rgb(209, 209, 209) 55%,rgb(217, 217, 217) 55%, rgb(217, 217, 217) 80%,rgb(224, 224, 224) 80%, rgb(224, 224, 224) 86%,rgb(231, 231, 231) 86%, rgb(231, 231, 231) 96%,rgb(238, 238, 238) 96%, rgb(238, 238, 238) 100%);
+}
+.motbike{
+    font-size: 150px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(otherimg/nihon-graphy-2DVMUoDdN4M-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    letter-spacing: 40px;
+}
+#bikes{
+    border: 0;
+    border: 2px solid;
+
+}
+#bikes>#duobike{
+    display: flex;
+    position: relative;
+}
+
+#duobike>.col-6{
+    padding-right: 120px;
+}
+#bikes>#duobike>.col-6>.row>.col-6>.photo{
+    mix-blend-mode: multiply;
+}
+#bikes>#duobike>.col-6>h1{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-underline-offset: 10px;
+    
+}
+#bikes>#duobike>.col-6>h1:hover{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+    letter-spacing: 8px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transform: transform 0.2s;
+    transition-duration: 0.5s;
+    
+}
+
+#bikes>.row>.col-6{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bikes>#duobike>.col-6>h4{
+    width: 85%;
+    height: 45px;
+    font-family: 'serif';
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: -400px;
+    margin-bottom: 20px;
+    
+}
+#bikes>#duobike>.col-6>.price>button>a{
+    text-decoration-line: none;
+    color: white;
+}
+#bikes>#duobike>.col-6>.price>button{
+    background-color: blue;
+    width: 200px;
+}
+
+@media only screen and (max-width:1200px) {
+    .motbike{
+        font-size: 35px;
+        text-align: center;
+        letter-spacing: 20px;
+        margin-bottom: -75px;
+    }
+    #bikes{
+        width: 450px;
+    }
+    #bikes>#duobike{
+        display: block;
+        position: relative;
+    }
+    #bikes>#duobike>.col-6>h1{
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 5px;
+        margin: 10px;
+        text-decoration-line: none;
+    }
+    #bikes>#duobike>.col-6>h1:hover{
+        text-decoration-line: underline;
+        text-decoration-color: red;
+        text-underline-offset: 10px;
+        transition-timing-function: ease-in-out;
+        transition-property: all;
+        transform:width 0.5s height 0.5s transform 0.75s;
+        transition-duration: 2s;
+        
+    }
+    #bikes>#duobike>.col-6{
+        width: 400px;
+        margin-top: 75px;
+        border-bottom: 2px solid red;
+        text-align: center;
+        
+    }
+ 
+    #bikes>#duobike>.col-6>.row>.col-6>.photo{
+        width: 350px;
+        height: 200px;
+    }
+    #bikes>#duobike>.col-6>.row>.col-6>.maintopic{
+        font-size: 14px;
+        line-height:5px;
+        margin-left: 5px;
+        text-align:center;
+    }
+    #bikes>#duobike>.col-6>h4{
+        font-size: 18px;
+        margin-left: -20px;
+        text-align: center;
+    }
+    #bikes>#duobike>.col-6>.emi{
+        width: 45%;
+        height: 35px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 5px;
+        margin-right: -50px;
+        margin-bottom: 15px;
+    }
+}
