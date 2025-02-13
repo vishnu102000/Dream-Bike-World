@@ -1,0 +1,246 @@
+
+.title>#fline{
+    font-style: italic;
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(255, 0, 0, 0.500);
+    font-family: fantasy;
+    letter-spacing: 25px;
+    margin-top: -900px;
+    margin-left: 250px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+.title>#sline{
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(255, 0, 0, 0.500);
+    font-family: fantasy;
+    letter-spacing: 25px;
+    margin-top: 35px;
+    margin-right: 250px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+#topic{
+    margin-top: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-shadow: 3px 1px 5px black;
+    text-decoration: double underline rgba(30, 0, 255, 0.553);
+    text-underline-offset: 15px;
+}
+.viewmore{
+    margin: 60px;
+    align-items: center;
+    text-align: center;
+}
+.viewmore>.view{
+    width: 300px;
+    height: 50px;
+    border: 0.5px solid ;
+    background-color: rgba(169, 169, 169, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 40px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 6s;
+    transform: width 2s height 3s transform 4s;
+}
+.viewmore>.view:hover{
+    width: 325px;
+    height: 50px;
+}
+.viewmore>.view>a{
+    text-decoration-line: none;
+    color: black;
+}
+.title>p{
+    font-size: larger;
+}
+.card{
+    box-shadow: 0 0 50px darkcyan;
+    border-radius: 100px;
+    
+}
+.card>img{
+    border-radius: 10px;
+}
+.card-body>.card-text{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: large;
+    color:mediumblue;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card-body>button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 3px solid red;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: red;
+}
+.card-body>.booking{
+    background-color: aliceblue;
+}
+.card-body>button>a{
+    color: white;
+}
+.word>.people{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    letter-spacing: 30px;
+    margin: 50px;
+    background-image: url(otherimg/conor-luddy-R2PpxA2j0pQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+}
+#motto>{
+    box-shadow: 20px 20px 0px gray;
+}
+#motto>#star{
+    transition: ease-in-out;
+    transition-duration: 2s;
+    transition: width 0.5s, height 1s, transform 1.5s;
+    
+}
+
+#motto>#star:hover{
+    width: 425px;
+    height: auto;
+}
+.announce>#benelli{
+    border: 2px solid green;
+    width: 450px;
+    margin: auto;
+    
+}
+.videofile>video{
+    width: 600px;
+    height: 400px;
+    display: flexbox;
+    margin: 20px;
+    
+}
+.videofile>h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    text-align: center;
+    margin: 50px;
+
+}
+
+@media only screen and (max-width:1000px) {
+    .container-fluid>#topimg{
+        margin: auto;
+        width: 500px;
+    }
+    .title>#fline{
+        margin-top: -295px;
+        color: red;
+        text-shadow: 5px 1px 5px black;
+        text-decoration-line: none;
+        margin-left: 50px;
+        font-size: 18px;
+        text-decoration-thickness: 3px;
+        letter-spacing: 15px;
+    }
+    .title>#sline{
+        color: white;
+        text-shadow: 5px 1px 5px black;
+        text-decoration-line: none;
+        margin-top: 15px;
+        margin-right: 25px;
+        font-size: 18px;
+        text-decoration-thickness: 3px;
+        letter-spacing: 15px;
+    }
+    .title>#topic{
+        font-size: 30px;
+    }
+    #front{
+        width: 330px;
+        margin-bottom: 50px;
+    }
+    .viewmore{
+        margin: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .viewmore>.view{
+        width: 200px;
+        height: 35px;
+        border: 0.5px solid darkgray ;
+        font-size: 18px;
+        border-radius: 50px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 6s;
+        transform: width 2s height 3s transform 4s;
+    }
+    .viewmore>.view:hover{
+        width: 225px;
+        height: 35px;
+    }
+    .viewmore>.view>a{
+        text-decoration-line: none;
+        color: black;
+    }
+    .title>p{
+        font-size: medium;
+    }
+    #sale>.card{
+        width: 330px;
+        margin-bottom: 50px;
+    }
+    #motto{
+        margin: 40px;
+    }
+    .word>.people{
+        font-size: 40px;
+        letter-spacing: 20px;
+        text-align: center;
+    }
+    #motto>.card{
+        
+        width: 330px;
+        margin: 40px;
+    }
+    .announce>#benelli{
+        width: 300px;
+        margin: auto;
+        
+    }
+    .videofile>video{
+        display: flexbox;
+        object-fit: cover;
+        width: 350px;
+        height: 300px;
+        margin-top: 50px;
+        
+    }
+    .videofile>h1{
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: gray;
+        text-align: center;
+        margin: 25px;
+    }
+    
+}

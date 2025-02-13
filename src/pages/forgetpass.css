@@ -1,0 +1,74 @@
+.newpass{
+    max-width: 550px;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid  indianred ;
+    border-radius: 50px;
+    box-shadow: 20px 20px 0px gray;
+    background: rgb(103,230,109);
+    background: linear-gradient(120deg, rgba(103,230,109,0) 40%, rgba(44,208,238,0.6783963585434174) 60%);
+    margin-bottom: -450px;
+}
+.passform{
+    margin: 50px;
+    padding: auto;
+    text-align: center;
+}
+.passform>.text{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.passform>#mail{
+    margin: 30px;
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border: 0.5px solid ;
+    border-radius: 5px;
+}
+.passform>#rpass{
+    margin: 30px;
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border: 0.5px solid ;
+    border-radius: 5px;
+}
+.passform>.donepass{
+    margin: 40px;
+    width: 250px;
+    height: 45px;
+    border: 2px solid green;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: green;
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+@media only screen and (max-width:1000px) {
+    .newpass{
+        width: 450px;
+    }
+    .passform>#rpass{
+        width: 300px;
+        height: 35px;
+        font-size: 18px;
+    }
+    .passform>.donepass{
+        font-size: 18px;
+        width: 200px;
+        height: 40px;
+    }
+    
+}

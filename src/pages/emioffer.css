@@ -1,0 +1,514 @@
+.emi-ad{
+    background-color: rgba(0, 0, 255, 0.556);
+    max-width: 1450px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+
+}
+.emi-ad>#nocost{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    margin-left: -600px;
+    padding-top: 100px;
+    color: antiquewhite;
+    
+}
+.emi-ad>img{
+    width: 500px;
+    margin-right: -700px;
+    margin-top: -250px;
+    margin-bottom: 50px;
+    position: relative;
+    mix-blend-mode: normal;
+    box-shadow: 20px 10px 2px 4px ;
+    border-radius: 5%;
+
+}
+.emi-ad>.row{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.emi-ad>.row>.col-3{
+    width: 350px;
+    height: 120px;
+    line-height: 50px;
+    background-color: white;
+    border-top: 8px solid lightblue;
+    border-left: 8px solid red;
+    border-radius: 40px 40px 90px 90px;
+    margin-right: -10px;
+    margin-left: 10px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 0px 0px grey;
+}
+.emi-ad>.row>.col-3>#option{
+    margin: 10px;
+    white-space: nowrap;
+    text-align: center;
+}
+.emi-ad>.row>.col-3>#option>b{
+    font-size: 50px;
+}
+
+
+#emilayer2{
+    max-width:  1400px;
+    background-color: bisque;
+    padding-bottom: 100px;
+    border: 2px solid;
+    border-style: dashed;
+}
+#emilayer2>h2{
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#emilayer2>p{
+    margin: 20px;
+    font-size: 24px;
+}
+#emilayer2>#disclaimer{
+    width: 1100px;
+    position: relative;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#emilayer2>.row{
+    margin: auto;
+    text-align: center;
+}
+#emilayer2>.row>p{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    max-width:  1000px;
+    font-size: 40px;
+    color: green;
+}
+#emilayer2>.row>p>.emi-stands{
+    text-align: justify;
+    margin: auto;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+#emilayer2>.row>.col-6{
+    display: flex;
+    padding: 20px;
+    
+}
+#emilayer2>.row>.col-6>#steps>.maintitle{
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: aqua;
+    color: white;
+    box-shadow: 20px 5px 1px 2px;
+    font-size: 40px;
+    font-style: oblique;
+    
+}
+#emilayer2>.row>.col-6>#steps>ul>li{
+    list-style-type: none;
+}
+#emilayer2>.row>.col-6>#steps>ul>li>.texttitle{
+    font-size: 30px;
+    border-radius: 40%;
+    text-transform: capitalize;
+    text-decoration: double underline;
+    text-underline-offset: 5px;
+    
+}
+#emilayer2>.row>.col-6>#steps>ul>li>p>.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+#emilayer2>.row>.col-6>.table1>.monthtable{
+    width: 600px;
+    height: 450px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.emilayer2>.row>.col-6>.monthtable,th{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    
+}
+#emilayer2>.row>.col-6>.monthtable,th,td{
+    border: 4px solid red;
+    text-align: justify;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#emilayer2>.row>.col-6>.drawbacks>p>ol>h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-style: oblique;
+    text-decoration: dashed underline;
+}
+#emilayer2>.row>.col-6>.drawbacks>p>ol{
+    width: 600px;
+    margin-top: 500px;
+    margin-left: -600px;
+    list-style-type: disc;
+    text-align: center;
+}
+
+#emilayer2>.row>.col-6>.drawbacks>p>ol>.text1{
+    text-align: justify;
+    font-size: 24px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#emilayer3{
+    margin: auto;
+    position: relative;
+    padding: auto;
+    margin-top: 100px;
+    mix-blend-mode: multiply;    
+}
+#emilayer3>img{
+    width: 800px;
+    align-items: center;
+}
+#emilayer3>.question{
+    background-image: url(otherimg/offers/5176883.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: -450px;
+}
+
+#emilayer3>.question>p>.lborder{
+    border: 0.5px solid white;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#emilayer3>.question>p>.lborder>ol{
+    margin: auto;
+    list-style: none;
+    font-size: 24px;
+}
+
+#emilayer3>.question>p>.lborder>ol>.qa{
+    text-align: start;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#emilayer3>.question>p>.lborder>.newmessage{
+    margin-bottom: 50px;
+}
+#emilayer3>.question>p>.lborder>.newmessage>form>.ask{
+    margin-left: -1250px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px black;
+}
+#emilayer3>.question>p>.lborder>.newmessage>form>input{
+    margin-top: 25px;
+    position: relative;
+    margin-left: 5px;
+    width: 55%;
+    height: 50px;
+    border: 2px solid;
+    padding-left: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    border-style: ridge;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+#emilayer3>.question>p>.lborder>.newmessage>form>#name{
+    margin-top: 25px;
+    position: relative;
+    margin-left: 50px;
+    width: 20%;
+    height: 50px;
+    border: 2px solid;
+    padding-left: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    border-style: ridge;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+#emilayer3>.question>p>.lborder>.newmessage>form>button{
+    width: 150px;
+    margin: 10px;
+    background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    
+}
+#emilayer3>.question>p>.lborder>.newmessage>form>button>a{
+    text-decoration-line: none;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width:1500px){
+    .emi-ad{
+        width: 500px;
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-bottom: 25px;
+        border-radius: 150px 25px 150px;
+        box-shadow: 10px 10px 10px 10px rosybrown;
+    }
+    .emi-ad>#nocost{
+        font-size: 30px;
+        margin-left: -0px;
+        padding: auto;
+        text-align: center;
+        text-shadow: 5px 3px black ;
+    }  
+    .emi-ad>img{
+        margin-right: 0px;
+        margin-top: 20px;
+        width: 300px;
+        
+    }
+    .emi-ad>.row{
+        margin: 10px;
+        font-size: 15px;
+    }
+    .emi-ad>.row>.col-3{
+        width: 200px;
+        height: 85px;
+        line-height: 35px;
+        border-top: 6px solid red;
+        border-left: 6px solid red;
+        border-radius: 40px 40px 90px 90px;
+        margin-bottom: 25px;
+        text-align: center;
+        box-shadow: 10px 10px 0px 0px black;
+        white-space: nowrap;
+    }
+    .emi-ad>.row>.col-3>#option{
+        white-space: nowrap;
+    }
+    .emi-ad>.row>.col-3>#option>b{
+        font-size: 30px;
+    }
+    #emilayer2{
+        width: 525px;
+    } 
+    #emilayer2>h2{
+        padding-top: 25px;
+        font-size: 35px;
+    }
+    #emilayer2>#disclaimer{
+        width: 450px;
+        position: relative;
+        margin: auto;
+        padding: 10px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-bottom: 5px;    
+    }
+    #emilayer2>p{
+        margin: 10px;
+        font-size: 18px;
+    }
+    #emilayer2>.row{
+        margin: auto;
+        text-align: center;
+    }
+    #emilayer2>.row>p{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        position: relative;
+        max-width:  450px;
+        font-size: 20px;
+        letter-spacing: 10px;
+        color: rebeccapurple;
+    }
+    #emilayer2>.row>p>.emi-stands{
+        text-align: justify;
+        margin: auto;
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color: black;
+        letter-spacing: 2px;
+    }
+    #emilayer2>.row>.col-6{
+        display: flex;
+        padding: 10px;
+    }
+    #emilayer2>.row>.col-6>#steps>.maintitle{
+        width: 450px;
+        text-align: center;
+        letter-spacing: 10px;
+        border: 2px solid wheat;
+        background-color: aqua;
+        color: white;
+        padding: 10px;
+        box-shadow: 20px 5px 1px 2px;
+        font-size: 18px;
+        font-style: oblique;
+               
+    }
+    #emilayer2>.row>.col-6>#steps>ul>li>.texttitle{
+        font-size: 20px;
+        background-color: brown;
+        padding: 8px;
+        border: 2px solid white;
+        border-radius: 10px 10px 20px 20px;
+        color: white;
+    }
+    #emilayer2>.row>.col-6>#steps>ul>li>p>.text{
+        width: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
+        font-size: 15px;
+        
+    }
+    #emilayer2>.row>.col-6>.table1>.monthtable{
+        margin-top: 1100px;
+        margin-left: -230px;
+        width: 450px;
+        height: 200px;
+        position: relative;
+        background-color: white;
+    }
+    .emilayer2>.row>.col-6>.monthtable,th{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    #emilayer2>.row>.col-6>.monthtable,th,td{
+        border: 2px solid red;
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #emilayer2>.row>.col-6>.drawbacks>p>ol>h3{
+        margin-top: 1450px;
+        position: relative;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: double underline;
+    }
+    #emilayer2>.row>.col-6>.drawbacks>p>ol{
+        width: 500px;
+        margin-top: 500px;
+        margin-left: -500px;
+        list-style-type: lower-roman;
+        font-weight: bold;
+    }
+    #emilayer2>.row>.col-6>.drawbacks>p>ol>.text1{
+        text-align: justify;
+        font-size: 18px;
+        color: darkred;
+        margin: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #emilayer3{
+        margin: auto;
+        position: relative;
+        padding: auto;
+        margin-top: 100px;
+        mix-blend-mode: multiply;
+    }
+    #emilayer3>img{
+        width: 400px;
+        align-items: center;
+    }
+    #emilayer3>.question{
+        background-image: url(otherimg/offers/5197086.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+        margin: auto;
+        margin-bottom: -550px;
+    }
+    #emilayer3>.question>p>.lborder>ol{
+        margin: auto;
+        font-size: 18px;
+    }
+    #emilayer3>.question>p>.lborder>ol>.qa{
+        margin: 25px;
+    }
+    #emilayer3>.question>p>.lborder>.newmessage{
+        margin-bottom: 25px;
+    }
+
+    #emilayer3>.question>p>.lborder>.newmessage>form>.ask{
+        margin-left: -200px;
+        font-size: 1.7rem;
+        color: red;
+        text-shadow: 2px 2px 2px blanchedalmond;
+    }
+    #emilayer3>.question>p>.lborder>.newmessage>form>input{
+        position: relative;
+        margin-left: 45px;
+        width: 65%;
+        height: 40px;
+        border: 5px solid;
+        text-align: center;
+        border-style: ridge;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+    }
+    #emilayer3>.question>p>.lborder>.newmessage>form>#name{
+        position: relative;
+        margin-left: 20px;
+        width: 20%;
+        height: 40px;
+        border: 5px solid;
+        padding-left: 0px;
+        text-align: center;
+        border-style: ridge;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+    }
+    #emilayer3>.question>p>.lborder>.newmessage>form>button{
+        width: 100px;
+        margin: 5px;
+        border-radius: 10px;
+        letter-spacing: 2px;
+    }
+    #emilayer3>.question>p>.lborder>.newmessage>form>button>a{
+        text-decoration-line: none;
+        color: whitesmoke;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}

@@ -1,0 +1,276 @@
+.forms{
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: -250px;
+    position: relative;
+    
+}
+.forms>h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    margin: 30px;
+    text-align: center;
+}
+.forms>.mess{
+    margin-bottom: 30px;
+}
+.forms>.firstline>.lhand>input{
+    margin: 40px;
+    display: flexbox;
+    width: 85%;
+    height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.forms>.firstline>.rhand>input{
+    margin: 40px;
+    display: flexbox;
+    width: 85%;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+.forms>.secondline>.lhand>input{
+    margin: 40px;
+    display: flexbox;
+    width: 85%;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+.forms>.secondline>.rhand>input{
+    margin: 40px;
+    display: flexbox;
+    width: 85%;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+.forms>.mess>input{
+    margin: auto;
+    position: relative;
+    width: 85%;
+    height: 250px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    text-align: top start;
+    
+}
+.forms>.submit{
+    margin: 40px;
+    width: 150px;
+    background-color: rgb(43, 156, 43);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 900;
+}
+.forms>.submit>a{
+    text-align: center;
+    text-decoration-line: none;
+    color: white;
+}
+#address{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    display: flexbox;
+    
+}
+#address>#maps>#map>.map{
+    letter-spacing:10px;
+    margin-Top: 30px ;
+    text-decoration: double underline;
+    text-underline-offset: 15px;
+    margin-Bottom: 50px;
+}
+#address>#maps>.col-6{
+    margin: auto;
+}
+#address>#maps>#addr{
+    margin: auto;
+}
+#address>#maps>#map>iframe{
+    box-shadow: 20px 20px 0px grey;
+}
+#address>#maps>#addr>.left>.office{
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#address>#maps>#addr>.right>.office{
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#address>#maps>#addr>.left>.addr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+#address>#maps>#addr>.right>.addr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width:1000px) {
+    .forms{
+        width: 360px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: -750px;
+        position: relative;
+        box-shadow: none;
+
+    }
+    .forms>h1{
+        letter-spacing: 5px;
+        margin: auto;
+        text-align: center;
+    }
+    .forms>.firstline>.lhand>input{
+        margin: auto;
+        margin-top: 30px;
+        display: flexbox;
+        width: 95%;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 20px;
+
+    }
+
+    .forms>.firstline>.rhand>input{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: flexbox;
+        width: 95%;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    .forms>.secondline>.lhand>input{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: flexbox;
+        width: 95%;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    .forms>.secondline>.rhand>input{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: flexbox;
+        width: 95%;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    .forms>.mess>input{
+        margin: auto;
+        position: relative;
+        width: 85%;
+        height: 200px;
+        font-size: 18px;
+        border-radius: 40px;
+        padding-bottom: 125px;
+        padding-left: 20px;
+
+    }
+    .forms>.submit{
+        margin: 20px;
+        width: 125px;
+        background-color: rgb(43, 156, 43);
+        border-radius: 20px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font: 900;
+    }
+    #address{
+        width: 350px;
+        padding: auto;
+        margin-top: -150px;
+    }
+    #address>#maps{
+        margin-top: -450px;
+    }
+    #address>#maps>#map>.map{
+        
+        text-decoration-line: none;
+        text-align: center;
+        margin-left: -100px;
+        font-size: 20px
+        
+    }
+    #address>#maps>#map>iframe{
+        position: relative;
+        align-items: center;
+        width: 320px;
+        height: 250px;
+        margin-left: -100px;
+        
+    }
+    #address>#maps>#addr{
+        margin-top: 1000px;
+        margin-left: -310px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    #address>#maps>#addr>.left>.office{
+        letter-spacing: 5px;
+        font-size: 18px; 
+        margin-top: 15px;
+    }
+
+    #address>#maps>#addr>.right>.office{
+        letter-spacing: 5px;
+        font-size: 18px; 
+        margin-top: 15px;
+    }
+    #address>#maps>#addr>.left>.addr{
+        font-size: 10px;        
+    }
+    #address>#maps>#addr>.right>.addr{
+        font-size: 10px;
+    }
+    
+}

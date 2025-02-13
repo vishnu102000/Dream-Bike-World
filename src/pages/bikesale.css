@@ -1,0 +1,210 @@
+.container{
+    max-width: 1500px;
+    margin-bottom: -150px;
+    margin: auto;
+    margin-top: 200px;
+}
+#contlayer>h2{
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container>#sales>#fronts{
+    max-width: 500px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20%;
+    margin-top: 50px;
+    box-shadow: 0 0 0px darkcyan;
+}
+.container>#sales>#fronts>#frontimg{
+    box-shadow: 15px 15px 5px gray;
+    width: 400px;
+    height: 350px;
+    border-radius: 90%;
+}
+.container>#sales>#fronts>#frontimg:hover{
+    width: 405px;
+    height: 320px;
+    border-radius: 20%;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    transition:  width 0.2s  height 0.2s transform 0.5s;
+}
+
+
+.container>#sales>#fronts>.card-body>.card-text{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: large;
+    color:mediumblue;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container>#sales>#fronts>.card-body>button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.viewmore>.view{
+    width: 200px;
+    height: 40px;
+    border: 0.5px solid darkgray ;
+    font-size: 20px;
+    border-radius: 50px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 6s;
+    transform: width 2s height 3s transform 4s;
+}
+.viewmore>.view:hover{
+    width: 225px;
+    height: 40px;
+}
+.viewmore>.view>a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#contlayer1{
+    display: grid;
+    max-width: 1400px;
+}
+#contlayer1>.mbrand>#brands{
+    background-image: url(otherimg/eberhard-grossgasteiger-RxTjOwTTV94-unsplash.jpg);
+    background-size: contain;
+    background-position: left;
+    background-clip: text;
+    color: transparent;
+    margin: auto;
+    font-size: 7rem;
+    letter-spacing: 8px;
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#contlayer1>.card-group{
+    column-gap: 10%;
+    margin-top: 50px;
+    position: relative;
+    align-items: flex-start;
+}
+#contlayer1>.card-group>.card{
+    display: flex;
+    opacity: 0.4;
+    background-color: rgba(245, 245, 245, 0);
+    border: 0px;
+    margin: 20px;
+    padding: auto;
+    width: 400px;
+    height: 275px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 0px;
+}
+#contlayer1>.card-group>.card:hover{
+    opacity: 1;
+}
+#contlayer1>.card-group>.card>.card-body>a>img{
+    width: 300px;
+    padding: 25px;
+    filter: grayscale(100%);
+}
+#contlayer1>.card-group>.card>.card-body>a>img:hover{
+    filter: grayscale(0%);
+}
+
+
+
+@media only screen and (max-width:1500px) {
+
+    .container{
+        margin-bottom: -150px;
+        margin: auto;
+        margin-top: 200px;
+    }
+    #contlayer>h2{
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .container>#sales>#fronts{
+        width: 450px;
+        height: auto;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-radius: 20%;
+        margin-top: 50px;
+        box-shadow: 0 0 0px darkcyan;
+    }
+    .container>#sales>#fronts>#frontimg{
+        box-shadow: 15px 15px 5px gray;
+        border-radius: 90%;
+        margin: auto;
+        width: 350px;
+        height: 320px;
+    }
+    .container>#sales>#fronts>#frontimg:hover{
+        width: 400px;
+        height: 300px;
+        border-radius: 30%;
+        transition-timing-function: linear;
+        transition-duration: 0.5s;
+        transition:  width 0.2s  height 0.2s transform 0.5s;
+    }
+    
+    .container>#sales>#fronts>.card-body>.card-text{
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: large;
+        color:mediumblue;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    #contlayer1{
+        display: grid;
+        width: 500px;
+    }
+    #contlayer1>.mbrand>#brands{
+        margin: auto;
+        text-align: center;
+        font-size: 4rem;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        
+    }
+    #contlayer1>.card-group{
+        column-gap: 10%;
+        margin-top: 50px;
+        position: relative;
+        align-items: flex-start;
+    }
+    #contlayer1>.card-group>.card{
+        display: flex;
+        opacity: 0.4;
+        margin: auto;
+        margin-bottom: 200px;
+        padding: auto;
+        width: 250px;
+        height: 150px;
+        border-radius: 10%;
+        box-shadow: 0px 0px 0px;
+        align-items: center;
+        
+    }
+    #contlayer1>.card-group>.card:hover{
+        opacity: 1;
+    }
+    #contlayer1>.card-group>.card>.card-body>a>img{
+        width: 250px;
+        margin: auto;
+        filter: grayscale(100%);
+    }
+    #contlayer1>.card-group>.card>.card-body>a>img:hover{
+        width: 300px;
+        filter: grayscale(0%);
+    }
+}
